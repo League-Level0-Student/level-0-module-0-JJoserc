@@ -20,29 +20,36 @@
 
 // 4. Now add a rect command to draw a rectangle.
 
-//    The rect command looks like this:       
-rect(250,250, 100,100);
+size(500,800); //window\
 
-//    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
-//    The main difference is the x and y co-ordinates are the top left corner of the shape.
-//    If the width is the same as the height, it draws a square.
+//body of snowman 
+ellipse(250,650,250,250);
+ellipse(250,425,200,200);
+ellipse(250,250,150,150);
 
+//hat
+fill(#0D0C0C);
+rect(175,50,150,125);
+rect(150,150,200,25);
 
-// 5. Now add color to your shapes. If you don't they will all be white.
-//    Processing provides a Color Selector Tool to make it easy to choose colors.
-//    Find the Processing Tools menu (ask your teacher for help if you can't locate it)
-//    Once you have opened the Color Selector, pick the color you want then press the Copy button.
+//Dot
+ellipse(250,425,10,10);
+ellipse(250,400,10,10);
+ellipse(250,450,10,10);
 
-//    Color is added with the fill command that looks like this:       fill(  );
+//eyes
+fill(#EF05FC);
+ellipse(230,240,20,20);
+ellipse(270,240,20,0);
 
-//    Paste the code for your selected color between the parentheses.
-//    It should now look something like this (the code will be different):   
-fill(#FFA850);
+//nose
+fill(#FC5805);
+triangle(180,250,250,250,250,270);
 
-// 6. The next shape you draw will be in the color you selected. 
-//    NOTE: You have to put the fill command with the color you want, 
-//    BEFORE you draw the shape.
-
-// 7. Now use all these shapes and colors to draw a picture of your own design. 
-
-// MAKE SURE YOU SAVE YOUR CODE 
+//arms
+fill(#906650);
+rect(75,400,75,15);
+rect(350,400,75,15);
+//ball
+fill(#FC5805);
+ellipse(425,420,40,40);
